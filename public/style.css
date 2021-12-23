@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color: rgb(191, 207, 255);
+    margin: 0;
+    padding: 0;
+}
+ 
+.boxx{
+    background: url(./weatherbg.gif) no-repeat;
+    margin: 10% auto;
+    margin-top: 30px;
+    padding: 1%;
+    color: rgba(255, 255, 254, 0.925);
+    text-decoration: wavy;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(83, 10, 252), 0 0 5px rgb(30, 0, 139);
+    justify-content: center;
+    border-radius: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    line-height: 0.5;
+    z-index: 1;
+    min-width: 280px;
+    max-width: 596px;
+    height: 19%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgimg{
+    width: 100%;
+}
+
+.iconn{
+    margin: 1%;
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+}
+
+p{
+    margin-right: 19%;
+}
+
+table{
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#h1{
+    font-family: 'lobster';
+    text-align: center;
+    color: rgb(3, 168, 168);
+    position: relative;
+    margin-top: 3%;
+}
+
+span{
+    border-bottom: 3px solid rgb(3, 168, 168); 
+}
+
+#cityname{
+    position: relative;
+    right: 15%;
+    border: none;
+    /* font-size: 5%; */
+}
+
+#temp{
+    position: relative;
+    right: 7%;
+    border: none;
+}
+
+#des{
+    position: relative;
+    right: 4%;
+    border: none;
+}
+
+.alert{
+    margin: 5%;
+    /* visibility: hidden; */
+
+    /* for error message! */
+}
+
+#title{
+    font-family: 'lobster';
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2%;;
+}
+
+#content{
+    margin: 5%;
+    margin-top: 2%;
+    font-size: 200px;
+}
+
+#top{
+    background: url(./5466289.jpg);
+    background-size: cover;
+    height: 250px;
+    padding: 1%;  
+    margin-bottom: 2%;
+}
