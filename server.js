@@ -44,6 +44,6 @@ process.on("unhandledRejection", (e) => {
     console.log(e.stack)
 })
 
-app.listen(proccess.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("app is deployed!")
 })
